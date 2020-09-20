@@ -1,3 +1,7 @@
+body {
+    background: black
+}
+
 .banner {
     background-color: teal;
     margin-top: -25px;
@@ -15,7 +19,7 @@
     height: 500px;
     width: 500px;
     margin: auto;
-    background-color: black;
+    background: linear-gradient(162deg, rgb(14, 174, 248) 0%, rgba(4, 245, 105, 0.69) 100%);
     border-radius: 10px;
 }
 
@@ -27,10 +31,11 @@
 }
 
 .card-input {
+    border-radius: 20px;
     width: 400px;
     height: 50px;
+    text-align: center;
     font-size: 30px;
-    color: grey;
     margin-left: 45px;
 }
 
@@ -38,25 +43,26 @@
     margin-top: 10px;
 }
 
-input[type=button] {
+input[type="button"] {
     background: lightGray;
     border-color: lightGray;
     width: 20%;
     font-size: 20px;
     font-weight: 900;
     border-radius: 7px;
-    margin-left: 13px;
+    margin-left: 15px;
     margin-top: 30px;
+    height: 50px;
 }
 
-input[type=button]:active {
+input[type="button"]:active {
     background-color: #3e8e41;
     border-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-input[type=button]:hover {
+input[type="button"]:hover {
     background-color: #1170af;
     border-color: #1170af;
     color: white;
